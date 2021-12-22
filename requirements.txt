@@ -1,0 +1,8 @@
+requests
+tensorflow
+nltk
+torch
+fastapi
+uvicorn
+pydantic
+excel2json
