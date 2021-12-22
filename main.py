@@ -1,8 +1,9 @@
-from fastapi import FastAPI
+from fastapi import FastAPI , Request
 
 import random
 import json
 from fastapi.params import Depends
+from fastapi.responses import JSONResponse
 
 import torch
 
@@ -82,4 +83,9 @@ def respon(pertanyaan: str):
     
     
     
-    
+@app.exception_handler(ValueError)
+async def value_error_exception_handler(request: Request, exc: ValueError):
+    return JSONResponse(
+        status_code=400,
+        content={"message": str(exc)},
+    )
