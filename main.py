@@ -60,6 +60,7 @@ def get_item(item_id: int):
 
 @app.get("/tanya/")
 def respon(pertanyaan: str):
+    print(pertanyaan)
     sentence = tokenize(pertanyaan)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -72,14 +73,25 @@ def respon(pertanyaan: str):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
+    print(prob)
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
                 return {"Jawaban": (intent['responses'])}
     else:
-        print(f"{bot_name}: I do not understand...")
-        return {"Jawaban": "Tidak TAU"}
+        nama = pertanyaan.replace("x", "*")
+        nama2 = nama.replace(":", "/")
+        nama2 = nama.replace(" ", "+")
+        print(nama2)
+
+        try:
+            print(eval(nama2))
+            pass
+            return eval(nama2)
+        except:
+             print("Maaf ya, Edubot belum tau jawabannya :(")
+             return {"Maaf ya, Edubot belum tau jawabannya :("}
     
     
     
