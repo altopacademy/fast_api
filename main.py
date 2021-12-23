@@ -91,7 +91,7 @@ def respon(pertanyaan: str):
             return {"Jawaban": [str(eval(nama2))]}
         except:
              print("Maaf ya, Edubot belum tau jawabannya :(")
-             return {"Jawaban": "Maaf ya, Edubot belum tau jawabannya :("}
+             return {"Jawaban": ["Maaf ya, Edubot belum tau jawabannya :("]}
     
     
     
