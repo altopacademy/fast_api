@@ -3,13 +3,9 @@
     {
       "tag": "Nama",
       "patterns": ["Nama Kamu siapa", "Siapa nama kamu"],
-      "responses": ["Nama Saya Ali Topan"]
+      "responses": ["Hai, nama saya Edubot"]
     },
-    {
-      "tag": "thanks",
-      "patterns": ["Terima kasih", "Thanks", "Thank's a lot!", "Maturnuwun", "Nuwun"],
-      "responses": ["Terimakasih Kembali"]
-    },
+
     {
       "tag": "items1",
       "patterns": [
@@ -167,6 +163,21 @@
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
       ]
+    },
+
+    {
+      "tag": "math1",
+      "patterns": [
+        "Kucing tetangga marah"
+      ],
+      "responses": [
+        "-13"
+      ]
     }
+
+  
+
+
+    
   ]
 }
