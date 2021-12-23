@@ -1,32 +1,136 @@
 {
   "intents": [
     {
-      "tag": "greeting",
-      "patterns": "Nama Kamu siapa?",
-      "responses": "Nama saya Muhammad Ali Topan"
-    },
-    {
-      "tag": "goodbye",
-      "patterns": "Bye",
-      "responses": "See you later, thanks for visiting"
+      "tag": "Nama",
+      "patterns": ["Nama Kamu siapa", "Siapa nama kamu"],
+      "responses": ["Nama Saya Ali Topan"]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Terima kasih", "Thanks", "Thank's a lot!", "Maturnuwun", "Nuwun"],
+      "responses": ["Terimakasih Kembali"]
     },
     {
-      "tag": "items",
+      "tag": "items1",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa beberapa peralatan. Peralatan tersebut kemudian hari di pandang sebagai bagian dari kebudayaan Dongson. Peralatan yang dimaksud di antaranya berupa ....</p>",
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa beberapa peralatan. Peralatan tersebut kemudian hari di pandang sebagai bagian dari kebudayaan Dongson. Peralatan yang dimaksud di antaranya berupa ....</p>",
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa beberapa peralatan. Peralatan tersebut kemudian hari di pandang sebagai bagian dari kebudayaan Dongson. Peralatan yang dimaksud di antaranya berupa ....</p>"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa kebudayaan perunggu. Kebudayaan perunggu ini juga disebut sebagai kebudayaan Dongson. Peninggalan kebudayaan Dongson&nbsp; yang berupa peralatan material di antaranya adalah moko, nekara, candrasa, dan arca. Namun selain itu bangsa Deutro Melayu juga mewariskan kebudayaan yang bersifat spiritual (animisme dan dinamisme), serta budaya bercocok tanam, budaya pembuatan perahu bercadik, dan budaya dalam bidang astronomi.</p>\r\r\n<p>Jadi jawaban yang benar adalah B.</p>"
       ]
-    },
+      },
+
+    {
+      "tag": "items1",
+      "patterns": [
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa beberapa peralatan. Peralatan tersebut kemudian hari di pandang sebagai bagian dari kebudayaan Dongson. Peralatan yang dimaksud di antaranya berupa ....</p>",
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa beberapa peralatan. Peralatan tersebut kemudian hari di pandang sebagai bagian dari kebudayaan Dongson. Peralatan yang dimaksud di antaranya berupa ....</p>",
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa beberapa peralatan. Peralatan tersebut kemudian hari di pandang sebagai bagian dari kebudayaan Dongson. Peralatan yang dimaksud di antaranya berupa ....</p>"
+      ],
+      "responses": [
+        "<p>Bangsa Deutro Melayu masuk ke Kepulauan Indonesia sekitar tahun 500 SM dengan membawa kebudayaan perunggu. Kebudayaan perunggu ini juga disebut sebagai kebudayaan Dongson. Peninggalan kebudayaan Dongson&nbsp; yang berupa peralatan material di antaranya adalah moko, nekara, candrasa, dan arca. Namun selain itu bangsa Deutro Melayu juga mewariskan kebudayaan yang bersifat spiritual (animisme dan dinamisme), serta budaya bercocok tanam, budaya pembuatan perahu bercadik, dan budaya dalam bidang astronomi.</p>\r\r\n<p>Jadi jawaban yang benar adalah B.</p>"
+      ]
+      },
+    
+
+    {
+      "tag": "items2",
+      "patterns": [
+        "<p>Pada masa Yunani Kuno terjadi kemajuan yang pesat dalam bidang ilmu pengetahuan dan pencatatan sejarah. Kemajuan dalam bidang sejarah salah satunya dibuktikan oleh lahirnya karya tulis \"Sejarah Perang Peloponesos\" yang ditulis oleh ....</p>"
+      ],
+      "responses": [
+        "<p>Pada masa kejayaan Yunani Kuno sangat dikenal capaian kemajuan dalam bidang filsafatnya. Tetapi selain itu juga terjadi perkembangan dalam bidang pencatatan sejarah serta ilmu pengetahuan. Khususnya dalam bidang pencatatan sejarah, bangsa Yunani Kuno pada masanya telah memiliki metode pencatatan sejarah secara ilmiah. Hal ini bisa kita dapatkan pada karya tulis Sejarah Perang Peloponesos yang ditulis oleh Thucydides. Karya ini mengisahkan terjadinya Perang Peloponesos, yaitu Athena dengan Sparta. Berkat karya ini Thucydides kemudian dianggap sebagai pelopor penulisan sejarah modern.</p>\r\r\n<p>Jadi jawaban yang benar adalah A</p>"
+      ]
+      },
+
+    {
+      "tag": "items3",
+      "patterns": [
+        "Kerajaan Demak merupakan salah satu kerajaan Islam terbesar di Indonesia. Adapun puncak kejayaannya dicapai pada masa pemerintahan"
+      ],
+      "responses": [
+        "<p>Kerajaan Demak merupakan kerajaan Islam tertua di Pulau Jawa. Raden Patah mendirikannya pada abad ke-15 M. Adapun puncak kejayaan terjadi pada masa pemerintahan Sultan Trenggana (raja yang ketiga). Pencapaian Sultan Trenggono di antaranya:&nbsp;</p>\r\r\n<p>(1) mencapai perluasan wilayah kekuasaan sampai ke Jawa Barat</p>\r\r\n<p>(2) mengalami kemajuan dalam perdagangan internasional</p>\r\r\n<p>(3) perkembangan perekonomian masyarakat melalui sektor pertanian</p>\r\r\n<p>Jadi jawaban yang benar adalah D</p>"
+      ]
+      },
+
+    {
+      "tag": "items4",
+      "patterns": [
+        "Kerajaan Tarumanegara merupakan kerajaan Hindu tertua di Pulau Jawa. Perkembangan kerajaan ini dapat dilihat dari sejumlah prasasti yang ditemukan. Salah satu prasasti yang menjelaskan kehidupan Kerajaan Tarumanegara adalah prasasti Ciaruteun, yang menceritakan"
+      ],
+      "responses": [
+        "<p>Kerajaan Tarumanegara merupakan kerajaan Hindu tertua di Jawa yang eksis sejak abad ke-5 M. Puncak kejayaannya dicapai pada masa pemerintahan Purnawarman. Catatan-catatan atau bukti kejayaan Purnawarman tertulis dalam&nbsp; beberapa, di antaranya prasasti; Tugu, Muara Cianten, Jambu, Kebon Kopi, Pasir Awi, dan Ciaruteun. Khususnya prasasti Ciaruteun berisi tentang ujian-pujian terhadap Raja Purnawarman yang padanya juga terdapat cap kaki Purnawarman. Prasasti ini ditemukan di Kampung Muara-Bogor.</p>\r\r\n<p>Jadi jawaban yang benar adalah A. </p>"
+      ]
+      },
+
+    {
+      "tag": "items5",
+      "patterns": [
+        "Bentuk perlawanan yang dilakukan para pejuang kemerdekaan Indonesia selama masa pergerakan nasional mengalami pergeseran strategi. Konsep pergerakan yang pada mulanya bersifat radikal kemudian mulai bersifat lebih koperatif. Latar belakang para pejuang memilih sikap koperatif adalah"
+      ],
+      "responses": [
+        "<p>Pada tahun 1930 sejumlah organisasi pergerakan nasional mulai meninggalkan sikap radikalnya. Tokoh-tokoh yang mulai bersikap melunak dan bersikap koperatif di antaranya adalah Ir. Soekarno dan Moh. Hatta. Sikap ini diambil karena beberapa faktor:</p>\r\r\n<p>(1) adanya krisis ekonomi yang dialami Hindia-Belanda</p>\r\r\n<p>(2) sikap keras Gubernul Jenderal De Jonge yang memerintah Hindia-Belanda antara 1931-1936</p>\r\r\n<p>(3) waspada terhadap bahaya fasisme dan naziisme karena bertentangan dengan konsep demokrasi, yang man sedang dikembangkan oleh para tokoh pergerakan nasional. </p>\r\r\n<p>Jadi jawaban yang benar adalah C. </p>"
+      ]
+      },
+
+
+    {
+      "tag": "items6",
+      "patterns": [
+        "Salah satu konsekuensi atas kesepakatan Perjanjian Renville adalah timbulnya kevakuman TNI serta aparat pemerintahan di sejumlah tempat. Hal tersebut membuka pintu pemberontakan DI/TII di Jawa Tengah dan daerah lain. Pemberontakan DI/TII di Jawa Tengah tersebut dipimpin oleh"
+      ],
+      "responses": [
+        "<p>Pemberontakan DI/TII merupakan pemberontakan berbasis ideologi. Tujuan utamanya adalah untuk mendirikan negara Islam dan menegakkan syariat Islam. Pemberontakan tersebut terjadi di berbagai daerah, mulai dari Jawa Barat, Jawa Tengah, Sulawesi Selatan, Kalimantan Selatan, hingga Aceh. Adapun pemberontakan DI/TII di Jawa Tengah dipimpin oleh Amir Fatah. Munculnya gerakan DI/TII di Jawa Tengah disebabkan karena adanya kevakuman TNI di daerah Pekalongan-Brebes-Tegal.&nbsp; </p>\r\r\n<p>Jadi jawaban yang benar adalah E.</p>"
+      ]
+      },
+
+    
+    {
+      "tag": "items7",
+      "patterns": [
+        "Pada masa pemerintahan B.J. Habibie berhasil dilaksanakan Sidang Istimewa MPR pada tanggal 10-13 November 1998. Berikut ini yang <strong>bukan</strong> merupakan hasil dari sidang tersebut adalah"
+      ],
+      "responses": [
+        "<p>Pada masa pemerintahan B.J. Habibie berhasil diselenggarakan Sidang Istimewa MPR pada tanggal 10-13 November 1998. Tujuan MPR mengadakan sidang istimewa adalah untuk menetapkan langkah-langkah pemerintah dalam melaksanakan amanat reformasi. Keputusan hasil sidang istimewa tersebut adalah: </p>\r\r\n<p>(1) terbukanya kesempatan untuk amandemen UUD tanpa melalui referendum</p>\r\r\n<p>(2) pencabutan keputusan P4 sebagai mata pelajaran wajib peserta didik</p>\r\r\n<p>(3) masa jabatan presiden dan wakil presiden dibatasi dua kali masa tugas (yang masing-masing lima tahun), serta</p>\r\r\n<p>(4) dikeluarkannya TAP MPR No. XVII/MPR/1998 tentang kebebasan berserikat</p>\r\r\n<p>Jadi jawaban yang benar adalah B.</p>"
+      ]
+      },
+
+    {
+      "tag": "items8",
+      "patterns": [
+        "Pada masa kehidupan kerjaan Islam di Nusantara berkembang sejumlah kebudayaan dalam wujud karya sastra. Salah satunya berupa kitab-kitab tasawuf yang dinamakan"
+      ],
+      "responses": [
+        "<p>Pada masa kehidupan kerajaan Islam di Nusantara berkembang kebudayaan karya sastra. Di antaranya adalah:</p>\r\r\n<p>(1) Suluk, yaitu karya sastra yang berupa kitab-kitab tasawuf.</p>\r\r\n<p>(2) Syair, yaitu karya sastra yang berupa sajak-sajak yang dalam satu bait terdiri dari empat baris.</p>\r\r\n<p>(3) Hikayat, yaitu karya sastra yang berisi cerita sejarah atau dongeng.</p>\r\r\n<p>(4) Babad, yaitu cerita sejarah yang biasanya berisi campuran antara fakta, mitos, dan kepercayaan.</p>\r\r\n<p>Jadi jawaban yang benar adalah E.</p>"
+      ]
+      },
+
+
+    {
+      "tag": "items9",
+      "patterns": [
+        "Pada 1 Januari 1993 Cekoslowakia resmi dipecah menjadi Republik Ceko dan Republik Slowakia. Pemisahan menjadi dua negara tersebut dapat berlangsung secara damai, sehingga menginspirasi banyak pihak. Proses pemisahan tersebut kemudian dikenal dengan revolusi"
+      ],
+      "responses": [
+        "<p>Proses pemisahan negara Republik Ceko dan Republik Slowakia dilatarbelakangi oleh keinginan Slowakia untuk melakukan desentralisasi kekuasaan. Proses pemisahan kekuasaan secara damai dilakukan dengan membawa bukti-bukti ke Mahkamah Konstitusi Federasi. Akhirnya pada tanggal 25 November 1992 disahkan Undang-Undang 542 tentang pemisahan Ceko dan Slovakia, yang mulai berlaku sejak 1 Januari 1993. Proses pemisahan yang berlangsung tanpa adanya konflik bersenjata ini kemudian dikenal sebagai Revolusi Velvet atau Revolusi Beludru.</p>\r\r\n<p>Jadi jawaban yang benar adalah B.</p>"
+      ]
+      },
+
+    {
+      "tag": "items10",
+      "patterns": [
+        "Keberhasilan peningkatan hasil pertanian pada masa orde baru tidak terlepas dari optimalisasi program sosialisasi atau penyuluhan tentang perkembangan teknologi pertanian muktahir. Program sosialisasi ini dilaksanakan melalui Kelompok Pendengar Pembaca dan Pemirsa (Kelompencapir). Agenda sosialisasi dari Kelompencapir tersebut adalah"
+      ],
+      "responses": [
+        "<p>Program penyuluhan pada masa Orde Baru memegang peranan sangat penting dalam menyukseskan program-program pemerintah.&nbsp; Dibentuknya Kelompok Pendengar Pembaca dan Pemirsa (Kelompencapir) adalah untuk mendukung program penyuluhan di bidang pertanian. Melalui Kelompencapir masyarakat dapat melakukan temu wicara sesama petani, nelayan, dan peternak secara langsung dengan Presiden Soeharto. Temu wicara tersebut terselenggara melalui kompetisi cerdas cermat pertanian bagi para petani berprestasi dari seluruh Indonesia yang disiarkan oleh stasiun TVRI.</p>\r\r\n<p>Jadi jawaban yang benar adalah D.</p>"
+      ]
+      },
+
+
+
+
     {
       "tag": "payments",
       "patterns": [
